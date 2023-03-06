@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <style>
+        #sidebar {
+            background-color: #60a5fa;
+            width: 20vw;
+            height: 100vh;
+        }
+
+        #sidebar > div {
+            display: flex;
+            text-align: center;
+            justify-content: space-evenly;
+        }
+
+        #logo {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+
+        #logo > img {
+            width: 40%;
+        }
+
+        #logo > p {
+            font-weight: bolder;
+            font-size: larger;
+        }
+
+        #pages {
+            margin-top: 100px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            font-weight: bold;
+        }
+
+        #pages > div {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        #pages > div > img {
+            width: 40px;
+        }
+
+        #pages > div:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        
+        html, body {
+            margin: 0;
+            padding: 0;
+        }
+
+        * {
+            font-family: Montserrat;
+        }
+    </style>
+</head>
+<body>
+    <section id="sidebar">
+        <div id="logo">
+            <img src="https://cdn-icons-png.flaticon.com/512/5198/5198081.png" alt="Dashboard Logo">
+            <p>Dashboard</p>
+        </div>
+        <div id="pages">
+            <div><img src="home-account.svg" alt="Home Logo"> Home</div>
+            <div><img src="account-box.svg" alt="Profile Logo"> Profile</div>
+            <div><img src="message.svg" alt="Message Logo"> Messages</div>
+            <div><img src="history.svg" alt="History Logo"> History</div>
+            <div><img src="format-list-checks.svg" alt="Tasks Logo"> Tasks</div>
+            <div><img src="account-multiple.svg" alt="Community Logo"> Community</div>
+        </div>
+    </section>
+    <header>
+
+    </header>
+    <section id="main-content">
+        
+    </section>
+</body>
+</html>
